@@ -79,7 +79,6 @@ double coord_2d_area_triangle(const coord_2d_t* a, const coord_2d_t* b, const co
 	double Cx = c->x;
 	double Cy = c->y;
 	double area = abs((Ax*(By-Cy)+Bx*(Cy-Ay)+Cx*(Ay-By))/2);
-	printf("area = %f\n", area);
 	return area;
 }
 
